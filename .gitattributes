@@ -1,0 +1,33 @@
+# Auto-detect text files and ensure consistent LF line endings
+* text=auto eol=lf
+
+# Treat Ruby, JS, TS, and config as text
+*.rb text
+*.rake text
+*.yml text
+*.yaml text
+*.json text
+*.js text
+*.ts text
+*.tsx text
+*.css text
+*.scss text
+*.html text
+*.md text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+
+# GitHub Linguist overrides (helps GitHub detect repo language correctly)
+api/* linguist-detectable=true
+web/* linguist-detectable=true
+docs/* linguist-documentation=true

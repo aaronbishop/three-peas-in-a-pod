@@ -1,0 +1,76 @@
+# === OS & Editor ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# === Environment & Secrets ===
+.env
+.env.*.local
+config/master.key
+config/credentials.yml.enc
+
+# === Logs & Temp ===
+log/*
+tmp/*
+!log/.keep
+!tmp/.keep
+
+# === Rails Specific ===
+/api/vendor/bundle
+/api/node_modules
+/api/storage/*
+!/api/storage/.keep
+/api/public/assets
+/api/public/packs
+/api/public/uploads
+/api/db/*.sqlite3
+/api/db/*.sqlite3-journal
+/api/db/schema.rb
+/api/db/structure.sql
+
+# === React (Vite) Specific ===
+/web/node_modules
+/web/dist
+/web/.vite
+/web/.eslintcache
+
+# === Coverage & Reports ===
+coverage/
+spec/examples.txt
+rspec-*.xml
+capybara-*.html
+
+# === System / Misc ===
+*.bak
+*.tmp
+*.log
+*.pid
+*.seed
+*.tgz
+*.gz
+*.zip
+*.tar
+*.out
+*.class
+*.jar
+*.war
+*.iml
+
+
+# === Docker ===
+/pgdata
+/docker-compose.override.yml
+/docker-compose.*.override.yml
+/docker/.env
+/docker/.env.*.local
+/docker/data
+/docker/tmp
+/docker/logs
+/docker/backups
+/docker/secrets
+/docker/certs
+/docker/config/master.key
+/docker/config/credentials.yml.enc
