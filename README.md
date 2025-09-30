@@ -15,6 +15,42 @@ An enterprise-grade family cookbook application built with **Rails 8 (API-first)
 
 ---
 
+## Project Board
+
+We track all work in the [Three Peas Project Board](https://github.com/users/aaronbishop/projects/3).
+
+### Workflow & Status Flow
+Issues automatically move across the board via GitHub Project workflows:
+
+- **Item added →** Status = Backlog  
+- **Item closed →** Status = Done  
+- **Item reopened →** Status = Backlog  
+- **Pull request merged (linked to issue) →** Status = Done  
+- **Sub-issues (checklist children) →** Automatically added to the project
+
+Columns represent the delivery flow with WIP limits:
+- **Backlog** (unlimited)  
+- **Ready for Dev** (max 5)  
+- **In Progress** (max 2–3)  
+- **Testing** (max 1–2)  
+- **Done** (unlimited)  
+
+### Labels
+- **Epics:** `epic: foundation`, `epic: authentication`, `epic: recipes`, `epic: social`, `epic: deployment`  
+- **Work types:** `feat`, `fix`, `chore`, `docs`, `test`
+
+### Milestones
+- **Foundation**  
+- **MVP**  
+- **Social Features**  
+- **Deployment**
+
+### Notes
+- Epics are represented as issues with checklists. Sub-issues auto-populate into the board when linked.  
+- The “Code changes requested” workflow is not enabled for this project, since development is currently solo — but the configuration is ready to scale if contributors join.
+
+---
+
 ## Tech Stack
 
 ### Backend (Rails 8 API)
