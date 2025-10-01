@@ -49,6 +49,23 @@ Columns represent the delivery flow with WIP limits:
 - Epics are represented as issues with checklists. Sub-issues auto-populate into the board when linked.  
 - The “Code changes requested” workflow is not enabled for this project, since development is currently solo — but the configuration is ready to scale if contributors join.
 
+## Estimation Guidelines
+
+We use T-shirt sizing to estimate issue complexity:
+
+- **S** – Small (≤ 2 hours)
+- **M** – Medium (≤ 1 day)
+- **L** – Large (2–3 days)
+- **XL** – Extra Large (1 week+)
+
+Estimates are relative, not exact time commitments. They are intended to:
+
+- Provide guidance for prioritization and capacity planning  
+- Track progress across epics in a consistent way  
+- Encourage discipline in sizing work before implementation begins  
+
+Each issue in the Project board includes an **Estimate** field using this scale.
+
 ---
 
 ## Tech Stack
