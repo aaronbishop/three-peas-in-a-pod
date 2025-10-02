@@ -66,6 +66,39 @@ Estimates are relative, not exact time commitments. They are intended to:
 
 Each issue in the Project board includes an **Estimate** field using this scale.
 
+## Repository Conventions
+
+To maintain consistency and enterprise-grade workflow practices, all work in this repository follows the conventions below.
+
+### Branch Naming
+Branches are prefixed by work type:
+
+- `feat/...` – New features
+- `fix/...` – Bug fixes
+- `chore/...` – Maintenance, tooling, configs, automation
+- `docs/...` – Documentation updates only
+- `test/...` – Test coverage changes
+
+### Commit Messages
+Commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/) style:
+
+- **Format:** `type(scope): subject`
+- **Subject:** Short, imperative, ≤ 72 characters
+- **Body (optional):** Additional context or rationale
+- **Footer (optional):** `Closes #XX` to link and close issues
+
+Examples:
+
+feat(auth): add JWT-based login flow
+fix(recipes): correct null check for ingredient list
+chore(ci): update GitHub Actions cache key
+
+### Pull Requests
+- PRs must use the standardized template
+- PRs should be squash-merged with a clean commit message
+- PR descriptions must link related issues (`Closes #XX`)
+- Each PR should include testing notes and any known risks/limitations
+
 ---
 
 ## Tech Stack
