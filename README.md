@@ -140,14 +140,25 @@ chore(ci): update GitHub Actions cache key
 - Docker Compose for local Postgres, dev services
 - ADRs + Business Logic Docs in `/docs`
 
+## Architecture Decision Records (ADRs)
+
+Key technical decisions for this project are documented as ADRs under [`/docs/adr/`].
+
+Each ADR follows the [Nygard format](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions), capturing context, decision, and consequences.
+
+Current ADRs:
+- ADR-0001: Rails 8 with Postgres (full mode, JSON APIs)
+- ADR-0002: React 18 + Vite + Tailwind frontend (hybrid with Rails backend)
+- ADR-0003: GitHub Projects (beta) for project management
+
 ---
 
 ## Getting Started
 
 ### Prerequisites
-- Ruby 3.3+ and Rails 8  
-- Node 20+  
-- PostgreSQL 14+ (local or Docker)  
+- Ruby 3.3+ and Rails 8
+- Node 20+
+- PostgreSQL 14+ (local or Docker)
 
 ### Setup
 
