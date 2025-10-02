@@ -150,6 +150,7 @@ Current ADRs:
 - ADR-0001: Rails 8 with Postgres (full mode, JSON APIs)
 - ADR-0002: React 18 + Vite + Tailwind frontend (hybrid with Rails backend)
 - ADR-0003: GitHub Projects (beta) for project management
+- ADR-0004: RSpec as test framework (with FactoryBot, Faker, Shoulda)
 
 ---
 
