@@ -107,7 +107,6 @@ Each issue in the Project board includes an **Estimate** field using this scale.
 - Docker Compose for local Postgres, dev services
 - ADRs + Business Logic Docs in `/docs`
 
-
 ---
 
 ## Getting Started
