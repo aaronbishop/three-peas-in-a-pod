@@ -9,14 +9,14 @@ Thumbs.db
 # === Environment & Secrets ===
 .env
 .env.*.local
-config/master.key
-config/credentials.yml.enc
+/api/config/master.key
+/api/config/credentials.yml.enc
 
 # === Logs & Temp ===
-log/*
-tmp/*
-!log/.keep
-!tmp/.keep
+/api/log/*
+/api/tmp/*
+!/api/log/.keep
+!/api/tmp/.keep
 
 # === Rails Specific ===
 /api/vendor/bundle
@@ -59,7 +59,6 @@ capybara-*.html
 *.war
 *.iml
 
-
 # === Docker ===
 /pgdata
 /docker-compose.override.yml
@@ -74,3 +73,7 @@ capybara-*.html
 /docker/certs
 /docker/config/master.key
 /docker/config/credentials.yml.enc
+
+# Kamal secrets
+/api/.kamal/secrets/*
+!/api/.kamal/secrets/.keep
